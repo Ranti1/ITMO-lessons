@@ -28,3 +28,8 @@ check_stroka("казак")
 check_stroka("холод")
 
 
+def del_less_spaces(text):
+    print(" ".join(text.split()))
+
+
+del_less_spaces("Hi! My      name    is ...   ")
