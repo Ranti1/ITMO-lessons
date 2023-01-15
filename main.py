@@ -124,3 +124,5 @@ class ItemList(Item):
 test = ItemList()
 test.make_new_cases()
 test.get_all_cases()
+test.delete_case()
+test.get_all_cases()
